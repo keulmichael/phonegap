@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<widget xmlns = "http://www.w3.org/ns/widgets"
+xmlns:gap = "http://phonegap.com/ns/1.0"
+id = "com.alunny.amazing"
+version = "1.0.0">
+
+<name>PhoneGap</name>
+
+<description>
+PhoneGap
+</description>
+
+<author href="http://alunny.github.com"
+email="andrew.lunny@nitobi.com">
+Andrew Lunny
+</author>
+
+<gap:platforms>
+<gap:platform name="android" minVersion="2.1" />
+<gap:platform name="webos" />
+<gap:platform name="symbian.wrt" />
+<gap:platform name="blackberry" project="widgets"/>
+</gap:platforms>
+
+<icon src="icone.png" gap:role="default" />
+
+    <gap:splash src="weirdo.png" />
+
+<feature name="http://api.phonegap.com/1.0/battery"/>
+<feature name="http://api.phonegap.com/1.0/camera"/>
+<feature name="http://api.phonegap.com/1.0/contacts"/>
+<feature name="http://api.phonegap.com/1.0/file"/>
+<feature name="http://api.phonegap.com/1.0/geolocation"/>
+<feature name="http://api.phonegap.com/1.0/media"/>
+<feature name="http://api.phonegap.com/1.0/network"/>
+<feature name="http://api.phonegap.com/1.0/notification"/>
+
+<plugin name="Camera" value="org.apache.cordova.CameraLauncher" />
+<plugin name="Notification" value="org.apache.cordova.Notification"/>
+
+
+
+<!-- sample preference specification -->
+<!-- <preference name="autorotate" value="false" readonly="true"/> -->
+</widget>
+
+
+
